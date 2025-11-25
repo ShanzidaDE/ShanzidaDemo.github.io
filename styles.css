@@ -1,0 +1,94 @@
+.home-title {
+    text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ff9a9e, #a5604c);
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(253, 249, 249);
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+.album-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.album {
+  background-color: #faf992;
+  color: rgb(37, 36, 36);
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+.album:hover {
+  transform: scale(1.2);
+  margin-top: 20px;
+  background-color:rgb(254, 197, 123);
+}
+
+table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgb(250, 226, 226);
+}
+
+th, td {
+  border: 3px solid #393838;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.about-wrapper {
+  padding: 20px;
+}
+.about-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-box {
+  float: left;
+  width: 40%;
+  background-color: #e0f7fa;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.position-box {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  width: 55%;
+  margin-left: 43%;
+  background-color: #fff3e0;
+  padding: 15px;
+}
